@@ -1,6 +1,9 @@
 # Dockerized howdoi
-### [https://github.com/gleitz/howdoi](https://github.com/gleitz/howdoi)
+## [https://github.com/gleitz/howdoi](https://github.com/gleitz/howdoi)
 
+### WHY?
+
+python2 ? python3 ? pip3 ? pip2.7 ?? who cares???
 
 #### usage example:
 
