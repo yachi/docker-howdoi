@@ -8,7 +8,7 @@ python2 ? python3 ? pip3 ? pip2.7 ?? who cares???
 #### usage example:
 
 ```
-docker run --rm "yachi/howdoi" howdoi test string empty bash
+docker run --rm "yachi/howdoi" test string empty bash
 ```
 
 #### alias suggesion:
