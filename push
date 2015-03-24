@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -e
+REPO="$USER/howdoi"
+docker push "$REPO"

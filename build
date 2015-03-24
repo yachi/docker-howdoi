@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -e
+REPO="$USER/howdoi"
+echo "building for $REPO ..."
+docker build -t "$REPO" .
+VERSION=$(docker run --rm "$USER/howdoi" howdoi --version)
+TAG=$REPO:$VERSION
+echo "tagging $TAG ..."
+docker tag "$REPO" "$TAG"
