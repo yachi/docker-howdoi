@@ -17,3 +17,9 @@ alias howdoi='docker run --rm "yachi/howdoi" howdoi'
 Dockerfile:
 
 [https://github.com/yachi/docker-howdoi/blob/master/Dockerfile](https://github.com/yachi/docker-howdoi/blob/master/Dockerfile)
+
+To Build:
+
+```
+./build
+```
